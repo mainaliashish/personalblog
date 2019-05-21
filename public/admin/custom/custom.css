@@ -1,0 +1,25 @@
+  .alert.alert-success.col-md-12 {
+    margin-top: 5px;
+    height: 40px;
+    width: 375px;
+    margin-left: 10px;
+    border-radius: 4px 4px 4px 4px;
+    font-style: initial;
+    font-weight: 600;
+    box-shadow: 2px 2px darkolivegreen;
+    background-color: purple !important;
+  }
+
+  .box {
+    background: darkseagreen;
+  }
+
+  .skin-purple .main-sidebar, .skin-purple .left-side {
+    background-color: darkgrey;
+}
+
+.skin-purple .sidebar-menu>li.header {
+    color: honeydew;
+    background: #1a2226;
+    font-size: medium;
+}
