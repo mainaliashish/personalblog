@@ -36,7 +36,7 @@
               <td>{!! str_limit($post->body, 80) !!}</td>
               <td class="row" style="margin-left: 0px"><a href="{{ route('posts.edit', $post->id) }}" class="btn btn-success col-sm-6">Edit</a>
 
-                {!! Form::open(['route' => ['posts.destroy', $post->id], 'method'=>'DELETE']) !!}
+                {!! Form::open(['route' => ['posts.destroy', $post->id], 'method'=>'DELETE', 'class' => 'delete']) !!}
 
                 {!! Form::submit('Delete', ['class' => 'btn btn-danger col-sm-6'] ) !!}
 
@@ -76,6 +76,11 @@ $('#example1').DataTable()
 'autoWidth'   : false
 })
 })
+</script>
+<script>
+    $(".delete").on("submit", function(){
+        return confirm("Do you want to delete this item?");
+    });
 </script>
 @endsection
 @section('headSection')

@@ -85,10 +85,7 @@
 <script src="{{ asset('admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js') }}"></script>
 <script>
     $(document).ready(function() {
-
         $('.textarea_editor').wysihtml5();
-
-
     });
 </script>
 @endsection

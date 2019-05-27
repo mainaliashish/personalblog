@@ -64,8 +64,8 @@
                 </span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> All Users</a></li>
-                <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Create User</a></li>
+                <li><a href="{{ route('categories.index') }}"><i class="fa fa-circle-o"></i> All Categories</a></li>
+                <li><a href="{{ route('categories.create') }}"><i class="fa fa-circle-o"></i> Create Category</a></li>
               </ul>
             </li>
 

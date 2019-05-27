@@ -1,3 +1,13 @@
+body, p, h1, h2, h3, h4, h5, strong, small, strong, .box, .content, .box-body, .content-wrapper, .content-header, td, th, tr, tbody, thead {
+
+font-family: 'IBM Plex Sans', sans-serif !important;
+
+}
+
+span, div, a, li, .sidebar {
+font-family: 'Karla', sans-serif !important;
+}
+
   .alert.alert-success.col-md-12 {
     margin-top: 5px;
     height: 40px;
@@ -22,4 +32,8 @@
     color: honeydew;
     background: #1a2226;
     font-size: medium;
+}
+
+.col-sm-2.create {
+    margin-left: -13px;
 }

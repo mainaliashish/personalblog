@@ -22,8 +22,11 @@
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="{{ asset('admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}">
 
-  <link rel="stylesheet" href="{{ asset('admin/custom/custom.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" media="screen" rel="stylesheet" />
 
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ asset('admin/custom/custom.css') }}">
 
   @section('headSection')
     @show

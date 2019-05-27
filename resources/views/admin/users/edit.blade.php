@@ -75,8 +75,8 @@
 
         {{ Form::close() }}
         {{ Form::open(['method' => 'DELETE', 'route' => ['users.destroy', $user -> id]])}}
-        <div class="form-group pull-right">
-            {{ Form::submit('Delete User',['class' => 'btn btn-danger'])}}
+        <div class="form-group pull-right delete">
+            {{ Form::submit('Delete User',['class' => 'btn btn-danger delete'])}}
         </div>
         {{ Form::close() }}
           </div>
@@ -89,4 +89,12 @@
   </section>
   <!-- /.content -->
 </div>
+@endsection
+
+@section('footerSection')
+<script>
+    $(".delete").on("submit", function(){
+        return confirm("Do you want to delete this item?");
+    });
+</script>
 @endsection
